@@ -1,0 +1,23 @@
+@mixin card-style($color) {
+  border-bottom: 10px solid $color;
+}
+
+.container {
+  margin: 50px 0;
+}
+
+.card {
+  margin: 0 2% !important;
+}
+
+.infected {
+  @include card-style(rgba(0, 0, 255, 0.4));
+}
+
+.recovered {
+  @include card-style(rgba(0, 255, 0, 0.4));
+}
+
+.deaths {
+  @include card-style(rgba(255, 0, 0, 0.4));
+}
