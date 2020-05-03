@@ -1,4 +1,2 @@
 npm create-react-app ./
-npm i axios react-chartjs-2 react-countup classnames
-npm i node-sass
-npm i @material-ui/core
+npm i node-sass axios chart.js react-chartjs-2 react-countup classnames @material-ui/core
