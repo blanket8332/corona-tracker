@@ -21,3 +21,9 @@
 .deaths {
   @include card-style(rgba(255, 0, 0, 0.4));
 }
+
+@media (max-width: 800px) {
+  .card {
+    margin: 4% 0 !important;
+  }
+}
