@@ -1,11 +1,27 @@
-.container {
+.line_container,
+.bar_container {
   display: flex;
   justify-content: center;
-  width: 80%;
+  width: 55%;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 1000px) {
+  .line_container,
+  .bar_container {
+    width: 90%;
+  }
 }
 
 @media (max-width: 800px) {
-  .container {
+  .line_container,
+  .bar_container {
     width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .line_container {
+    display: none;
   }
 }
